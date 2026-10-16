@@ -2,6 +2,8 @@
 
 基于 [Karpathy 的 LLM Wiki 理念](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) 构建的 Obsidian 知识库：用 Codex 将原始资料编译成结构化、可追溯、相互链接的知识网络，用 Obsidian 阅读和浏览。
 
+本项目基于 [jason-effi-lab/karpathy-llm-wiki-vault](https://github.com/jason-effi-lab/karpathy-llm-wiki-vault) 构建并修改，针对 Codex 适配了项目约定、仓库技能与知识库工作流。感谢原作者 [jason-effi-lab](https://github.com/jason-effi-lab) 分享项目，为本仓库提供了基础与启发。
+
 ## 目录结构
 
 ```text
@@ -44,7 +46,7 @@ $youtube-transcript-digest https://www.youtube.com/watch?v=视频ID
 
 也可以直接说“将这篇资料导入知识库”“查询我的笔记中关于提示工程的内容”或“检查知识库健康状况”。如果技能没有出现在当前会话中，重启 Codex；也可以明确要求读取 `.agents/skills/ingest/SKILL.md` 等对应文件后执行。
 
-Codex 使用 `AGENTS.md` 提供项目指令，通过 `.agents/skills/` 发现仓库技能，详见 [项目指令官方文档](https://developers.openai.com/codex/guides/agents-md) 和 [技能官方文档](https://developers.openai.com/codex/skills)。旧 `/ingest`、`/query`、`/lint` 已改为上面的技能调用方式。
+Codex 使用 `AGENTS.md` 提供项目指令，通过 `.agents/skills/` 发现仓库技能，详见 [项目指令官方文档](https://developers.openai.com/codex/guides/agents-md) 和 [技能官方文档](https://developers.openai.com/codex/skills)。
 
 ## 工作流约定
 
@@ -55,12 +57,15 @@ Codex 使用 `AGENTS.md` 提供项目指令，通过 `.agents/skills/` 发现仓
 
 本仓库的技能直接读写本地 Markdown，无需 Obsidian CLI、Claudian 或额外 MCP 服务。用 Obsidian 打开同一目录即可浏览双链与附件；不需要运行构建命令。
 
-YouTube 技能使用 Python 3.9+ 标准库，通过 Supadata 获取字幕。在线获取需要 `SUPADATA_API_KEY` 环境变量或 `~/.superdata` 中的单行 Key；请勿将密钥写入仓库。默认直接输出 `01-原始资料/02-转录/<视频简短标题>.md`，例如 `Prompt_Engineering_Full_Course.md`，只生成一份原始字幕 Markdown，不新建交付子目录，不生成翻译或总结。文件保留 YAML 属性、视频嵌入、完整原始简介、原文章节和逐条时间戳。中间文件放在转录目录下的 `youtube-transcript-*` 专用工作目录，使用 `check --cleanup` 校验通过后删除本次工作目录，不创建 `99-工作文件/`。已有资料不覆盖，重名时使用带版本号或视频 ID 的新短标题，历史工作目录不自动删除。配套脚本支持离线导入已有字幕响应。技能复制自本地 `llm-wiki-knowledge-base` 仓库。
+YouTube 技能使用 Python 3.9+ 标准库，通过 Supadata 获取字幕。在线获取需要 `SUPADATA_API_KEY` 环境变量或 `~/.superdata` 中的单行 Key；请勿将密钥写入仓库。默认直接输出 `01-原始资料/02-转录/<视频简短标题>.md`，例如 `Prompt_Engineering_Full_Course.md`，只生成一份原始字幕 Markdown，不新建交付子目录，不生成翻译或总结。文件保留 YAML 属性、视频嵌入、完整原始简介、原文章节和逐条时间戳。中间文件放在转录目录下的 `youtube-transcript-*` 专用工作目录，使用 `check --cleanup` 校验通过后删除本次工作目录，不创建 `99-工作文件/`。已有资料不覆盖，重名时使用带版本号或视频 ID 的新短标题，历史工作目录不自动删除。配套脚本支持离线导入已有字幕响应。
 
 
 ## 知识来源
 
 - Google Gemini API 官方文档
 - Anthropic Claude 最佳实践
-- 各机构发布的 Prompt Engineering 白皮书
-- 学术论文（如 5C Prompt Contracts）
+
+
+## 许可证
+
+本仓库的原创内容及修改部分采用 [MIT License](LICENSE)，版权归 callmejacksong 所有。上游项目内容、收录的原始资料及其他第三方内容的版权与许可归各自权利人所有，不因本仓库的 MIT 许可证而改变。
