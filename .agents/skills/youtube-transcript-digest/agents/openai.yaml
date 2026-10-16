@@ -1,0 +1,4 @@
+interface:
+  display_name: "YouTube 原始字幕"
+  short_description: "通过 Supadata 提取 YouTube 原始字幕，以视频短标题保存单份 Markdown"
+  default_prompt: "使用 $youtube-transcript-digest 提取这个 YouTube 链接的原始字幕，保留 YAML、视频嵌入、完整简介、原始章节和逐条时间戳，直接输出到 01-原始资料/02-转录/<视频短标题>.md，不新建交付子目录，不生成翻译或总结。中间产物放在转录目录下的 youtube-transcript-* 专用工作目录，校验通过后使用 check --cleanup 删除本次工作目录。"

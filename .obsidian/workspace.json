@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "56ca27452b419636",
+    "type": "split",
+    "children": [
+      {
+        "id": "108d3c8b5eac1899",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be7c6f2e4df490be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-wiki知识库/02-实体/Tech_With_Tim.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tech_With_Tim"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fcb599b118510d8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9eff68d9b7d4e25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ddf464ea0ffee635",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "81edded83f9447a0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "7e3da540c268b715",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ec833cefae039c71",
+    "type": "split",
+    "children": [
+      {
+        "id": "6bed2fa400daa6e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e365e7d142eb2d4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02-wiki知识库/02-实体/Tech_With_Tim.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "a0b21c296f28de53",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02-wiki知识库/02-实体/Tech_With_Tim.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "d818dd2c0620aaaa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "cfca77aab243ab44",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "bc03251f39f36442",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02-wiki知识库/02-实体/Tech_With_Tim.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "be7c6f2e4df490be",
+  "lastOpenFiles": [
+    "02-wiki知识库/03-摘要/prompt-engineering-full-course.md",
+    "02-wiki知识库/log.md",
+    "02-wiki知识库/02-实体/Tech_With_Tim.md",
+    "02-wiki知识库/01-概念/Prompt_Chaining.md",
+    "02-wiki知识库/01-概念/Interview_Style_Prompting.md",
+    "02-wiki知识库/01-概念/Structured_Output.md",
+    "02-wiki知识库/01-概念/Context_Engineering.md",
+    "02-wiki知识库/01-概念/Chain_of_Thought.md",
+    "02-wiki知识库/01-概念/Few_Shot_Prompting.md",
+    "02-wiki知识库/01-概念/Prompt_Engineering.md",
+    "02-wiki知识库/index.md",
+    "02-wiki知识库/02-实体/Anthropic.md",
+    "02-wiki知识库/03-摘要/anthropic-prompting-best-practices.md",
+    "02-wiki知识库/02-实体/Claude.md",
+    "01-原始资料/01-文章/Prompting best practices-Anthropic.md",
+    "02-wiki知识库/04-综合/prompt-engineering-practice-synthesis.md",
+    "02-wiki知识库/01-概念/Agent_Workflows.md",
+    "01-原始资料/01-文章/The Complete Guide to AI Prompt Engineering in 2025-2026.md",
+    "01-原始资料/01-文章/Prompt Engineering in 2025_ Complete Guide for ChatGPT, Claude, and Gemini.md",
+    "01-原始资料/01-文章/提示设计策略  _  Gemini API.md",
+    "02-wiki知识库/03-摘要/gemini-api-prompting-strategies.md",
+    "02-wiki知识库/03-摘要/espo-prompt-engineering-2025-2026.md",
+    "02-wiki知识库/01-概念/RAG.md",
+    "02-wiki知识库/02-实体/Gemini.md",
+    "02-wiki知识库/02-实体/Google.md",
+    "02-wiki知识库/01-概念/Prompt_Frameworks.md",
+    "99-附件/hq720.jpg",
+    "99-附件/Karpathy LLM Wiki.png",
+    "01-原始资料/03-论文/5C Prompt Contracts .pdf",
+    "01-原始资料/03-论文/Goolge-Prompt-Engineering-whitepaper.pdf",
+    "01-原始资料/02-转录/Prompt_Engineering_Full_Course",
+    "01-原始资料/02-转录/youtube-transcript-n8p2gvtl/2BpCk4d2Cc0/summary-body.txt",
+    "01-原始资料/02-转录/youtube-transcript-n8p2gvtl/2BpCk4d2Cc0/translation-005.json",
+    "01-原始资料/02-转录/youtube-transcript-n8p2gvtl/2BpCk4d2Cc0/translation-004.json",
+    "01-原始资料/02-转录/youtube-transcript-n8p2gvtl/2BpCk4d2Cc0/translation-003.json",
+    "01-原始资料/02-转录/youtube-transcript-n8p2gvtl/2BpCk4d2Cc0/translation-002.json",
+    "01-原始资料/02-转录/youtube-transcript-n8p2gvtl/2BpCk4d2Cc0/translation-001.json",
+    "01-原始资料/02-转录/youtube-transcript-n8p2gvtl/2BpCk4d2Cc0/metadata.json"
+  ]
+}
