@@ -5,7 +5,7 @@
 ## 目录结构
 
 ```text
-karpathy-llm-wiki-vault/
+llm-wiki-vault/
 ├── AGENTS.md                       # Codex 项目约定
 ├── .agents/skills/                 # 仓库级技能
 │   ├── ingest/SKILL.md             # 导入原始资料
