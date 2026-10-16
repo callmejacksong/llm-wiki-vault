@@ -11,14 +11,10 @@
             "id": "be7c6f2e4df490be",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-wiki知识库/04-综合/how-to-write-good-prompts.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "how-to-write-good-prompts"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -190,10 +186,11 @@
   },
   "active": "be7c6f2e4df490be",
   "lastOpenFiles": [
-    "02-wiki知识库/02-实体/Tech_With_Tim.md",
+    "LICENSE",
     "02-wiki知识库/04-综合/how-to-write-good-prompts.md",
-    "02-wiki知识库/02-实体/Gemini.md",
+    "02-wiki知识库/02-实体/Tech_With_Tim.md",
     "02-wiki知识库/03-摘要/gemini-api-prompt-design-strategies.md",
+    "02-wiki知识库/02-实体/Gemini.md",
     "01-原始资料/01-文章/提示设计策略    Gemini API.md",
     "02-wiki知识库/02-实体/Anthropic.md",
     "02-wiki知识库/02-实体/Claude.md",
@@ -215,7 +212,6 @@
     "02-wiki知识库/01-概念/Agent_Workflows.md",
     "01-原始资料/01-文章/The Complete Guide to AI Prompt Engineering in 2025-2026.md",
     "01-原始资料/01-文章/Prompt Engineering in 2025_ Complete Guide for ChatGPT, Claude, and Gemini.md",
-    "01-原始资料/01-文章/提示设计策略  _  Gemini API.md",
     "99-附件/hq720.jpg",
     "99-附件/Karpathy LLM Wiki.png",
     "01-原始资料/03-论文/5C Prompt Contracts .pdf",
